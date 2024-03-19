@@ -25,7 +25,7 @@ Poornima Godavarthy, Katy Hosokawa, Nidhi Raviprasad, and Ananya Thapar
 
 2.  Make sure the following files are included - ai_personal_stylist.py, styles.csv, and the images folder with images 1163.jpg to 600.jpg 
 
-3. Install dependencies - Pillow >= 2.0 and Tensorflow = 2.15. We running the following commands: pip install Pillow and pip install Tensorflow.
+3. Install dependencies - Pillow >= 2.0 and Tensorflow = 2.15. We reccommend running the following commands: pip install Pillow and pip install Tensorflow.
 
 3. Run python3 ai_personal_stylist.py
 
