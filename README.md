@@ -19,11 +19,14 @@ This is a project for Rodrigo Canaan's Artificial Intelligence (CSC 480) class. 
 
 Poornima Godavarthy, Katy Hosokawa, Nidhi Raviprasad, and Ananya Thapar
 
+### Dataset Used
+The Fashion Product Images Dataset includes all images used for this project and a labeled csv file - https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset/data
+
 ### How to develop locally
 
 1. git clone this repository
 
-2.  Make sure the following files are included - ai_personal_stylist.py, styles.csv, and the images folder with images 1163.jpg to 600.jpg 
+2.  Make sure the following files are included - ai_personal_stylist.py, styles.csv, and the images folder with images 1163.jpg to 600.jpg.  
 
 3. Install dependencies - Pillow >= 2.0 and Tensorflow = 2.15. We reccommend running the following commands: pip install Pillow and pip install Tensorflow.
 
