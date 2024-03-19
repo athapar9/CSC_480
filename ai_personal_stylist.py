@@ -171,8 +171,7 @@ print("Best recommendation:", top, bottom)
 
 satisfied = int(input("Rank your overall satisfaction with your recommendation our of 10: "))
 
-if satisfied <= 6:
-  while(True):
+while satisfied <= 6:
     gender_satisfaction = int(input("Rank your satisfaction of your recommendation's gender match out of 5: "))
     colour_satisfaction = int(input("Rank your satisfaction of your recommendation's base colour out of 5: "))
     season_satisfaction = int(input("Rank your satisfaction of your recommendation's season out of 5: "))
@@ -189,3 +188,4 @@ if satisfied <= 6:
     retrieve_image(top)
     retrieve_image(bottom)
     print("Best recommendation:", top, bottom)
+    satisfied = int(input("Rank your overall satisfaction with your recommendation our of 10: "))
