@@ -178,10 +178,10 @@ if satisfied <= 6:
     season_satisfaction = int(input("Rank your satisfaction of your recommendation's season out of 5: "))
     usage_satisfaction = int(input("Rank your satisfaction of your recommendation's usage out of 5: "))
 
-    attribute_weights['gender'] = max(0, attribute_weights['gender'] - (5 - gender_satisfaction))
-    attribute_weights['baseColour'] = max(0, attribute_weights['baseColour'] - (5 - colour_satisfaction))
-    attribute_weights['season'] = max(0, attribute_weights['season'] - (5 - season_satisfaction))
-    attribute_weights['usage'] = max(0, attribute_weights['usage'] - (5 - usage_satisfaction))
+    attribute_weights['gender'] += (5 - gender_satisfaction)
+    attribute_weights['baseColour'] += (5 - colour_satisfaction)
+    attribute_weights['season'] += (5 - season_satisfaction)
+    attribute_weights['usage'] += (5 - usage_satisfaction)
     print(attribute_weights)
 
     best_recommendation = evolutionary_algorithm(user_preferences, attribute_weights)
